@@ -1,0 +1,29 @@
+{
+  "name": "profanity",
+  "version": "1.0.0",
+  "description": "Gives you nice functions to replace profanity check if there is profanity...",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "nodemon -exec ts-node index.ts",
+    "build": "tsc --build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "gf"
+  },
+  "keywords": [
+    "npm",
+    "profanity"
+  ],
+  "author": "UnlockDep",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.14.6",
+    "nodemon": "^2.0.6",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
+  },
+  "dependencies": {
+    "badwords": "^1.0.0"
+  }
+}
